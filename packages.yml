@@ -1,0 +1,3 @@
+packages:
+  - package: fivetran/salesforce
+    version: [">=2.2.0", "<2.3.0"] # we recommend using ranges to capture non-breaking changes automatically
