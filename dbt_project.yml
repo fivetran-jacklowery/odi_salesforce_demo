@@ -36,14 +36,6 @@ clean-targets:         # directories to be removed by `dbt clean`
 # using the `{{ config(...) }}` macro.
 
 models:
-  odi_salesforce_demo:
-    +persist_docs:
-      relation: true
-      columns: true
-  fivetran_log:
-    +persist_docs:
-      relation: true
-      columns: true
   salesforce:
     +persist_docs:
       relation: true
